@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services informatiques professionnels - Dépannage, maintenance, et développement de logiciels.">
+    <title>Mon Site Informatique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Site Informatique</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Réparation d'ordinateurs</h3>
+            <p>Nous réparons et entretenons vos ordinateurs, qu'il s'agisse de matériel ou de logiciel.</p>
+        </div>
+        <div class="service">
+            <h3>Développement de logiciels</h3>
+            <p>Conception de logiciels adaptés à vos besoins professionnels.</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Nous sommes une équipe de professionnels spécialisés dans le domaine informatique depuis plus de 10 ans.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Mon Site Informatique. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
