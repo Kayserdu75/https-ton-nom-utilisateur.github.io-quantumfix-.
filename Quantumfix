@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quantumfix - Experts en réparation et développement informatique">
+    <title>Quantumfix - Solutions Informatiques</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Quantumfix</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Réparation et Développement Informatique de Haute Qualité</h2>
+        <p>Des solutions sur mesure pour vos besoins informatiques professionnels et personnels.</p>
+        <a href="#services" class="btn">Nos Services</a>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="service">
+            <h3>Réparation et Maintenance</h3>
+            <p>Des réparations rapides et fiables pour vos appareils informatiques.</p>
+        </div>
+        <div class="service">
+            <h3>Développement Logiciel</h3>
+            <p>Création de logiciels personnalisés pour répondre à vos besoins.</p>
+        </div>
+        <div class="service">
+            <h3>Support et Assistance</h3>
+            <p>Support technique 24/7 pour résoudre vos problèmes informatiques.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>À propos de Quantumfix</h2>
+        <p>Quantumfix est une entreprise avec plus de 15 ans d'expérience dans la fourniture de services informatiques de haute qualité. Nous croyons en l'innovation et la fiabilité pour garantir que vos systèmes informatiques fonctionnent toujours à leur meilleur potentiel.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Quantumfix. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
