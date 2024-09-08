@@ -1,1 +1,1 @@
-# https//www.quantumfix.fr
+# www.quantumfix.fr
